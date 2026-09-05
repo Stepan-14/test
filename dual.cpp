@@ -1,6 +1,8 @@
 #include <iostream>
-int main(int argc, char* argk[]) {
-    for(int i {}; i < sizeof(argk); ++i) {
-        std::cout << argk[i];
+int main() {
+    for (int i{}; i < 3; ++i)
+    {
+        std::cout << "Hell";
     }
+    return 0;
 }
